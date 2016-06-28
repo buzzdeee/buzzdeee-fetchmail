@@ -1,0 +1,10 @@
+<% if @sets -%>
+  <%- @sets.each do |set| -%>
+set <%= set %>
+  <%- end -%>
+<% end -%>
+poll <%= @poll %>
+<% @users.each do |user| -%>
+<%= user %>
+<% end -%>
+;

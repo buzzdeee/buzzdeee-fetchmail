@@ -1,0 +1,14 @@
+{
+  "name": "buzzdeee-fetchmail",
+  "version": "0.1.0",
+  "author": "buzzdeee",
+  "summary": "A puppet module to manage fetchmail",
+  "license": "Apache 2.0",
+  "source": "https://github.com/buzzdeee/buzzdeee-fetchmail",
+  "project_page": "https://github.com/buzzdeee/buzzdeee-fetchmail",
+  "issues_url": "https://github.com/buzzdeee/buzzdeee-fetchmail/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+
