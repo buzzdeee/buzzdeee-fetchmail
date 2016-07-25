@@ -8,7 +8,7 @@ define fetchmail::poll (
 
   $fetchmailrc = $::fetchmail::fetchmailrc
 
-  concat::fragment { "$fetchmailrc header $name":
+  concat::fragment { "$fetchmailrc poll $name":
     target  => $fetchmailrc,
     content => template("${module_name}/fetchmailrc.erb"),
     order   => '10',
